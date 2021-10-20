@@ -1,0 +1,182 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posters</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container-fluid px-3 py-2">
+        <!-- header -->
+        <nav class="navbar navbar-expand-lg navbar-light border border-secondary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Postermania</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Ofertas
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="#">1º Oferta</a></li>
+                                <li><a class="dropdown-item" href="#">2º Oferta</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">3º Oferta</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Reqistro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active pedidos" aria-current="page">Tus pedidos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex m-0">
+                        <input class="form-control me-2" type="search" placeholder="nombre serie o pelicula"
+                            aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Poster -->
+        <div class="card my-4 rounded-0 border-0 p-5" id="poster">
+            <div class="card-body">
+                <p class="fs-3 fw-bold">Tu póster personalizado</p>
+                <p>Elige tu poster de tu serie o pelicula favorita por un precio sin competencia</p>
+            </div>
+        </div>
+
+        <!-- checkboxs -->
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="typeVideo" id="btnradio1" autocomplete="off" value="films">
+            <label class="btn btn-outline-secondary" for="btnradio1">Poster de pelicula</label>
+
+            <input type="radio" class="btn-check" name="typeVideo" id="btnradio2" autocomplete="off" value="series">
+            <label class="btn btn-outline-secondary" for="btnradio2">Posters de series</label>
+        </div>
+
+        <!-- posters' list -->
+        <div class="row row-cols-3 py-2" id="containerPosters">
+        </div>
+
+        <!-- fotter -->
+        <footer class="row row-cols-5 py-5 my-5 border-top">
+            <div class="col">
+                <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <p class="text-muted">© 2021</p>
+            </div>
+
+            <div class="col">
+
+            </div>
+
+            <div class="col">
+                <h5>Nuestros valores</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Calidad</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Rapidez</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Precio</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5>Webs amigas</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">programame.com</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">javapoint.com</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">webinar.es</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5>Sobre nosotros</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Equipo</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Localizacion</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacidad</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel">Pedido</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form class="modal-body form-control border-0 rounded-0">
+                    <p>Juntos el corazon nunca se equivoca</p>
+                    <div class="mb-3 row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Cantidad</label>
+                        <div class="col-sm-10">
+                            <input type="number" min="1" class="form-control" id="cantidad" placeholder="default: 1">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Precio</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="precio" value="10€" data-price="10€" disabled>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Modelo</label>
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="sizePoster" id="sizeSmall" autocomplete="off" value="small">
+                            <label class="btn btn-outline-secondary" for="sizeSmall">Pequeño</label>
+
+                            <input type="radio" class="btn-check" name="sizePoster" id="sizeMiddle" autocomplete="off" value="middle">
+                            <label class="btn btn-outline-secondary" for="sizeMiddle">Medio</label>
+
+                            <input type="radio" class="btn-check" name="sizePoster" id="sizeBig" autocomplete="off" value="big" checked>
+                            <label class="btn btn-outline-secondary" for="sizeBig">Grande</label>
+                        </div>
+                    </div>
+                    <a href="#">Leer condiciones</a>
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary add" data-type="" data-id="">Realizar pedido</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="message" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              Enviado correctamente
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

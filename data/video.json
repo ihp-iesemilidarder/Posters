@@ -1,0 +1,134 @@
+{
+    "video":{
+        "series":[
+            {
+                "type":"series",
+                "img":"anatomiadegrey.jpg",
+                "name":"Anatomia de grey",
+                "duration":"42m",
+                "director":["Shonda Rhimes"],
+                "gender":["Drama"],
+                "price":10
+            },
+            {
+                "type":"series",
+                "img":"jovensheldon.jpg",
+                "name":"El joven Sheldon",
+                "duration":"2h",
+                "director":["Chuck Lorre","Steven Molaro"],
+                "gender":["Comedia"],
+                "price":40
+            },
+            {
+                "type":"series",
+                "img":"juntoselcorazonnuncaseequivoca.jpg",
+                "name":"Juntos el corazon nunca se equivoca",
+                "duration":"1h",
+                "director":["Aurello Avila","Alicia Carvajal"],
+                "gender":["Romance","Drama"],
+                "price":60
+            },
+            {
+                "type":"series",
+                "img":"larosadeguadalupe.jpg",
+                "name":"La rosa de guadalupe",
+                "duration":"41-44m",
+                "director":["Jose Angel Garcia","Marta Luna","Ricardo de la Parra","Eduardo Sald","Lorena Maza"],
+                "gender":["Melodrama","Drama"],
+                "price":20
+            },
+            {
+                "type":"series",
+                "img":"mrrobot.jpg",
+                "name":"Mr. Robot",
+                "duration":"40-60m",
+                "director":["Sam Esmail"],
+                "gender":["Drama","Tecnologica","Psicologica"],
+                "price":30
+            },
+            {
+                "type":"series",
+                "img":"theresident.jpg",
+                "name":"The resident",
+                "duration":"43-45m",
+                "director":["Amy Holden Jones","Hayley Schore","Rashan Sethi"],
+                "gender":["Drama","Medicina"],
+                "price":10
+            },
+            {
+                "type":"series",
+                "img":"TWD.jpg",
+                "name":"The walking dead",
+                "duration":"41-67m",
+                "director":["Robert Kirkman","Tony Moore","Charlie Adlard"],
+                "gender":["Horror","Psicologica","Drama"],
+                "price":10
+            }
+        ],
+        "films":[
+            {
+                "type":"films",
+                "img":"avatar.jpg",
+                "name":"Avatar",
+                "duration":"2h 42m",
+                "director":["James Cameron"],
+                "gender":["Ciencia Ficcion"],
+                "price":7
+            },
+            {
+                "type":"films",
+                "img":"darkman.jpg",
+                "name":"Darkman",
+                "duration":"95m",
+                "director":["Sam Raimi"],
+                "gender":["Accion","Suspense"],
+                "price":8
+            },
+            {
+                "type":"films",
+                "img":"et.jpg",
+                "name":"ET",
+                "duration":"2h",
+                "director":["Steven Spielberg"],
+                "gender":["Ciencia Ficcion"],
+                "price":5
+            },
+            {
+                "type":"films",
+                "img":"maquinasmortales.jpg",
+                "name":"Maquinas Mortales",
+                "duration":"2h 8m",
+                "director":["Christian Rivers"],
+                "gender":["Supervivencia","Violencia"],
+                "price":10
+            },
+            {
+                "type":"films",
+                "img":"nomires.jpg",
+                "name":"No mires",
+                "duration":"1h 43m",
+                "director":["Assaf Bernstein"],
+                "gender":["Horror","Psicologica","Drama"],
+                "price":30
+            },
+            {
+                "type":"films",
+                "img":"pacificrim.jpg",
+                "name":"Pacific Rim",
+                "duration":"2h 12m",
+                "director":["Guillermo del Toro"],
+                "gender":["Ciencia Ficcion"],
+                "price":10
+            },
+            {
+                "type":"films",
+                "img":"spiderman.jpg",
+                "name":"Spiderman",
+                "duration":"2h",
+                "director":["Stan Lee"],
+                "gender":["Ciencia Ficcion"],
+                "price":20
+            }
+        ]
+    }
+}
